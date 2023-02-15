@@ -1,0 +1,431 @@
+[uacf7_step_start Step-One "Step One"]
+
+
+        [uacf7-row]
+            [uacf7-col col:6] 
+                <label>
+                    [text* first-name class:states placeholder "First Name"] 
+                </label>
+            [/uacf7-col]
+        
+            [uacf7-col col:6] 
+                <label>
+                    [text* last-name  placeholder "Last Name"]
+                </label>
+            [/uacf7-col]
+        
+        [/uacf7-row]
+
+        [uacf7-row]
+            [uacf7-col col:12] 
+                <label>
+                    [email* email  placeholder "Email Address*" ]
+                </label>
+            [/uacf7-col]
+        [/uacf7-row]
+
+
+        [uacf7-row]        
+            [uacf7-col col:12] 
+                <label>
+                    [text* cell  placeholder "Cell Phone*"] 
+                </label>
+            [/uacf7-col]
+    
+        [/uacf7-row]
+
+        [uacf7-row]        
+            [uacf7-col col:12] 
+                <label>
+                    [text* address  placeholder "Address Line 1"] 
+                </label>
+            [/uacf7-col]
+        [/uacf7-row]
+
+        [uacf7-row]
+
+                [uacf7-col col:4] 
+                    <label>
+                        [text city  placeholder "City"] 
+                    </label>
+                [/uacf7-col]
+
+                [uacf7-col col:4] 
+                <label>
+
+                    [select* state class:states "Select State" "Alabama" "Alaska" "Arizona" "Arkansas" "California" "Colorado" "Connecticut" "Delaware" "District of Columbia" "Florida" "Georgia" "Guam" "Hawaii" "Idaho" "Illinois" "Indiana" "Iowa" "Kansas" "Kentucky" "Louisiana" "Maine" "Maryland" "Massachusetts" "Michigan" "Minnesota" "Mississippi" "Missouri" "Montana" "Nebraska" "Nevada" "New Hampshire" "New Jersey" "New Mexico" "New York" "North Carolina" "North Dakota" "Ohio" "Oklahoma" "Oregon" "Pennsylvania" "Puerto Rico" "Rhode Island" "South Carolina" "South Dakota" "Tennessee" "Texas" "Utah" "Vermont" "Virgin Islands (US)" "Virginia" "Washington" "West Virginia" "Wisconsin" "Wyoming" "Armed Forces (the) Americas" "Armed Forces Europe" "Armed Forces Pacific" "Army Post Office (U.S. Army and U.S. Air Force)" "Fleet Post Office (U.S. Navy and U.S. Marine Corps)"]
+                </label>
+                [/uacf7-col]
+
+                [uacf7-col col:4] 
+                <label>
+                    [text* zipcode  placeholder "Zip Code"] 
+                </label>
+                [/uacf7-col]    
+
+        [/uacf7-row]
+
+        [uacf7-row]
+
+            [uacf7-col col:6] 
+                <label>
+                    [text* age  placeholder "Age*"] 
+                </label>
+            [/uacf7-col]
+
+            [uacf7-col col:6] 
+                <label> Biological Gender*
+                     [radio Biological-gender use_label_element "Male" "Female"]
+                </label>
+            [/uacf7-col]
+
+        [/uacf7-row]  
+
+        <div style="background-color: #EDEFF0;">
+            <h2 style="text-align: center;">
+                Service Intake
+            </h2>
+        </div>
+
+        [uacf7-row]
+
+            [uacf7-col col:12] 
+                <label> Why do you wish to seek Toxin Pulling (Wet Cupping/Hijama)?*
+                    [textarea* why-do-you-wish-to-seek-Toxin-Pulling-Wet-Cupping-Hijama] 
+                </label>
+            [/uacf7-col]
+
+        [/uacf7-row]  
+
+        [uacf7-row]  
+            [uacf7-col col:12] 
+                <label> Is this your first time experiencing Toxin Pulling (Wet Cupping/Hijama)? *
+                    [textarea* Is-this-your-first-time-experiencing-Toxin-Pulling-Wet-Cupping-Hijama] 
+                </label>
+            [/uacf7-col]
+
+        [/uacf7-row]  
+
+        [uacf7-row]  
+            [uacf7-col col:12] 
+                <label> Is there a specific area of concern? *
+                    [textarea* Is-there-a-specific-area-of-concern] 
+                </label>
+            [/uacf7-col]
+
+        [/uacf7-row]  
+
+        [uacf7-row]  
+            [uacf7-col col:12] 
+                <label> How did you hear about us?
+                    [select How-did-you-hear-about-us class:states "--- Select ---" "Google" "Facebook" "Instagram" "Friend" "Other"]
+                </label>
+            [/uacf7-col]
+
+        [/uacf7-row]  
+
+        <div style="background-color: #EDEFF0;">
+            <h2 style="text-align: center;">
+                Emergency Contact
+            </h2>
+        </div>
+
+
+        [uacf7-row]
+            [uacf7-col col:6] 
+                <label>
+                    [text* first-name-emergency  placeholder "First Name"] 
+                </label>
+            [/uacf7-col]
+        
+            [uacf7-col col:6] 
+                <label>
+                    [text* last-name-emergency  placeholder "Last Name"] 
+                </label>
+            [/uacf7-col]
+        
+        [/uacf7-row]
+
+        [uacf7-row]
+            [uacf7-col col:12] 
+                <label>
+                    [text* cell-emergency  placeholder "Emergency Cell Phone*"]
+                </label>
+            [/uacf7-col]
+        [/uacf7-row]
+
+
+        [uacf7-row]        
+            [uacf7-col col:12] 
+                <label>
+                    [text relationship placeholder "Relationship to the Client"] 
+                </label>
+            [/uacf7-col]
+    
+        [/uacf7-row]
+
+[uacf7_step_end]
+
+<!-- ================================================= -->
+
+[uacf7_step_start Step-Two "Step Two"]
+
+<div style="background-color: #EDEFF0;">
+        <h2 style="text-align: center;">
+            Medical History
+        </h2>
+    </div>
+
+
+
+    [uacf7-row]        
+        [uacf7-col col:6] 
+            <label> Do you have any Medical History?*
+                [radio Do-you-have-any-Medical-History use_label_element "No" "Yes"]
+                   [group group-829]
+                        [text Medical-history placeholder "Fill In"]
+                   [/group]
+            </label>
+        [/uacf7-col]
+
+        [uacf7-col col:6] 
+            <label> Are you currently taking supplements or prescription medication?*
+                [radio Currently-taking-supplements-or-prescription-medication use_label_element "No" "Yes"]
+                   [group group-830]
+                        [text supplements-or-prescription-medication placeholder "Fill In"]
+                   [/group]
+
+            </label>
+        [/uacf7-col]        
+
+    [/uacf7-row]
+
+    [uacf7-row]
+
+        [uacf7-col col:6] 
+            <label> Do you suffer from any known allergies?*
+                [radio Do-you-suffer-from-any-known-allergies use_label_element "No" "Yes"]
+                   [group group-831]
+                        [text Type-of-Allergies placeholder "Fill In"]
+                   [/group]
+            </label>
+        [/uacf7-col]
+
+        [uacf7-col col:6] 
+            <label> Have you had any surgeries in the past 5 years?*
+                [radio Have-you-had-any-surgeries-in-the-past-5-years use_label_element "No" "Yes"]
+                   [group group-832]
+                        [text where placeholder "Fill In"]
+                   [/group]
+            </label>
+        [/uacf7-col]
+
+    [/uacf7-row]  
+
+    [uacf7-row]
+
+    [uacf7-row]
+
+        [uacf7-col col:6] 
+            <label> Are you on any blood thinners?*
+                [radio any-blood-thinners use_label_element "No" "Yes"]
+                   [group group-400]
+                        [text What-kind-of placeholder "Fill In"]
+                   [/group]
+            </label>
+        [/uacf7-col]
+
+    [/uacf7-row]
+
+        [uacf7-col col:6] 
+        [/uacf7-col]
+    [/uacf7-row]
+
+[uacf7_step_end]
+
+
+<!-- ================================================= <p class="text-center"><a href="#" class="btn btn-info sg-popup-id-1251">Click Here to Sett the Disclosure</a></p> -->
+[uacf7_step_start Step-Three "Step Three"]
+
+
+    <div style="background-color: #EDEFF0;">
+        <h2 style="text-align: center;">
+            Disclosure
+        </h2>
+    </div>
+
+ 
+<!-- =================== Dislosure content Start ============================== -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"fontSize":"small"} -->
+<p class="has-small-font-size"></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column {"width":"11.76%"} -->
+<div class="wp-block-column" style="flex-basis:11.76%"></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"80%"} -->
+<div class="wp-block-column" style="flex-basis:80%"><!-- wp:heading -->
+<h2>Benefits of Toxin Pulling (Wet Cupping/Hijama)</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><strong>Toxin Pulling (Wet Cupping/Hijama) this Spiritual experience,</strong><strong>&nbsp;has stimulating and strengthening effects so it can possibly assist with the following conditions and much more:</strong></p>
+<!-- /wp:paragraph -->
+
+
+<!-- wp:table -->
+<figure class="wp-block-table"><table><tbody><tr><td>· Constipation and Diarrhea</td><td>· Sciatica</td></tr><tr><td>· Headaches</td><td>· Common cold and flu</td></tr><tr><td>· Back pain</td><td>· Skin problems</td></tr><tr><td>· Arthritis</td><td>· Weight loss</td></tr><tr><td>· Period pain</td><td>· Blood Stagnation</td></tr><tr><td>· Injuries</td><td>· Beauty therapy</td></tr><tr><td>· Asthma</td><td>· Immunity</td></tr><tr><td>· Cellulite</td><td>· Circulatory system</td></tr><tr><td>· Fatigue</td><td>· Gastrointestinal Disease</td></tr><tr><td>· Anemia</td><td>· Urinary disease</td></tr><tr><td>· Depression</td><td>· Psychological disease</td></tr><tr><td>· Emotional problems</td><td>· Hormone balance</td></tr><tr><td>· Atrophy (loss of muscle)</td><td>· Metaphysical concerns</td></tr></tbody></table></figure>
+<!-- /wp:table -->
+
+<!-- wp:heading -->
+<h2>Contraindications (Better to avoid)</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><strong>Contraindications (Better to avoid)</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>If you are on or have any of the following listed below, Soul Detox Inc. advises you to consult a knowledgeable Physician who is familiar with&nbsp;<strong>Toxin Pulling (Wet Cupping/Hijama)</strong>&nbsp;before having&nbsp;<strong>Toxin Pulling (Wet Cupping/Hijama)</strong>&nbsp;performed on you.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul><li>Blood Thinners (Don’t take before&nbsp;<strong>Toxin Pulling (Wet Cupping/Hijama)</strong>. Take immediately after session)</li><li>Skin disease (During Inflammation)</li><li>Pregnant</li><li>Menstruation&nbsp;</li><li>Under 18</li></ul>
+<!-- /wp:list -->
+
+<!-- wp:initials Contraindications  -->
+<label><b>Initial Here</b></label>
+[text* Initials-Contraindications class:ini]
+<!-- /wp:initials -->
+
+<!-- wp:heading -->
+<h2>Before Toxin Pulling (Wet Cupping/Hijama)</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><strong>Toxin Pulling (Wet Cupping/Hijama)</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul><li>Don’t eat food for a minimum of 2-4 hours before&nbsp;<strong>Toxin Pulling (Wet Cupping/Hijama)</strong></li><li>Don’t drink caffeine before&nbsp;<strong>Toxin Pulling (Wet Cupping/Hijama)</strong></li><li>Don’t be too physically active the day of&nbsp;<strong>Toxin Pulling (Wet Cupping/Hijama)</strong>&nbsp;(No training, no running, no spousal intimacy)</li><li>Keep body warm</li><li>Don’t Smoke/Vape before Wet Cupping (Hijama)</li><li>Remove hair from site for cupping (Grooming is additional cost)</li><li>Take a warm shower before&nbsp;<strong>Toxin Pulling (Wet Cupping/Hijama)</strong>&nbsp;(ideal, but not mandatory)</li></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>(Some of these are for best case scenario in order to yield the maximum benefits)</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:initials BEFORE TOXIN PULLING-->
+<label><b>Initial Here</b></label>
+[text* Initials-Before-TOXIN-PULLING class:ini]
+<!-- /wp:initials -->
+
+<!-- wp:heading -->
+<h2>After Toxin Pilling (Wet Cupping/Hijama)</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><strong>After&nbsp;Toxin Pulling (Wet Cupping/Hijama)</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul><li>Don’t eat till 1 hour after&nbsp;<strong>Toxin Pulling (Wet Cupping/Hijama)</strong></li><li>Eat a healthy, clean, high fat &amp; high protein meal (1 hour after&nbsp;<strong>Toxin Pulling (Wet Cupping/Hijama</strong>)</li><li>Don’t drink caffeine till 1 hour after&nbsp;<strong>Toxin Pulling (Wet Cupping/Hijama)</strong></li><li>Keep&nbsp;<strong>Toxin Pulling (Wet Cupping/Hijama)</strong>&nbsp;sites warm.&nbsp;NO&nbsp;direct air hitting it please! (Where&nbsp;<strong>Toxin Pulling (Wet Cupping/Hijama</strong>)</li><li>Ideal to keep&nbsp;<strong>Toxin Pulling (Wet Cupping/Hijama)</strong>&nbsp;sites dry for a full 24 hours (Can shower but do not put soap on&nbsp;<strong>Toxin Pulling (Wet Cupping/Hijama)</strong>&nbsp;marks)</li><li>Don’t sleep after Wet Cupping (Hijama), but if you find yourself tired then you can sleep</li><li>Use SoulDetox post&nbsp;<strong>Toxin Pulling (Wet Cupping/Hijama)</strong>&nbsp;After Care Oil on Cupping sites to keep clean or coconut oil, black seed oil, tea tree oil, or olive oil.</li></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p><strong>What to expect after&nbsp;Toxin Pulling (Wet Cupping/Hijama):</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Can possibly feel light headed, sick/nausea (especially in the morning on an empty stomach), fainting due to seeing blood. These cases are very rare and only occur if the client is unwell. Expect some Cupping Marks due to the nature of the suction from&nbsp;<strong>Toxin Pulling (Wet Cupping/Hijama)</strong>&nbsp;which goes away after a few days.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>If at all there is no direct effect of&nbsp;<strong>Toxin Pulling (Wet Cupping/Hijama)</strong>&nbsp;on a particular disease (due to lack of research in that area)&nbsp;<strong>Toxin Pulling (Wet Cupping/Hijama)</strong>&nbsp;is very beneficial for the spiritual treatment as it strengthens the immune system, activate lymphatic system, increase the blood circulation, purifies the blood, and removes toxins.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:initials AFTER TOXIN PULLING-->
+<label><b>Initial Here</b></label>
+[text* Initials-After-TOXIN-PULLING class:ini]
+<!-- /wp:initials -->
+
+<!-- wp:heading -->
+<h2>Should a “healthy” person do Toxin Pulling (Wet Cupping/Hijama)?</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><strong>Should a &nbsp;“healthy” person do&nbsp;Toxin Pulling (Wet Cupping/Hijama)?</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>Toxin Pulling (Wet Cupping/Hijama)</strong>&nbsp;gets rid of acidic toxic waste which accumulates in our bodies (blood stasis) as we grow older. Sources of toxic waste include the polluted air we breathe; toxic chemicals found in your food, water, drinks, household chemicals &amp; toiletries; environmental waste in your neighborhood; intoxicating drinks, narcotic drugs, junk food and smoking; waste products of normal body metabolism; products of medicinal drugs metabolism; impact of trauma and accidents on our body; and toxins from mental stress, anger, anxiety and depression. The blood stasis (stagnated or congested blood) slow down or block supply of blood via blood capillaries which deliver much needed oxygen, nutrients, water, mineral electrolyte, vitamins, enzymes, hormones and immune system cells &amp; antibodies to your cells, tissues and organ. The blockage also prevents the removal of carbon dioxide, metabolic waste products and toxic substance which are excreted via our urine, lungs and skin. As a result your cells, tissues, and organs cannot function at its normal healthy level and become progressively weak, inefficient, and easily overcome by germs. This would cause tissue or organ to malfunction and infection to take place. Therefore you will experience symptoms of diseases such as aches and pain, numbness, fever, cough, stomach ache, constipation, diarrhea and headaches. If left neglected, further accumulation of toxic waste may lead to serious chronic diseases including hypertension, ulcers, diabetes, arthritis, Alzheimer disease, migraine, heart disease, stroke and cancer.&nbsp;<strong>Toxin Pulling (Wet Cupping/Hijama</strong>)&nbsp;is a very good preventive measure</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>Disclosure &amp; Waiver Form</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><strong><u>DISCLOSURE FORM</u></strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>We at Soul Detox Inc. are required to Spiritually practice&nbsp;<strong>CTPWCHP</strong>&nbsp;(<strong>Toxin Pulling (Wet Cupping/Hijama)</strong>&nbsp;Cupping Therapy) within the Scope of Practice, as outlined and in accordance to the Codes and Ethics of the Pastoral Medical Association, USA &amp; Canada.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>As a&nbsp;<strong>CTPWCHP</strong>&nbsp;(Certified&nbsp;<strong>Toxin Pulling (Wet Cupping/Hijama)</strong>&nbsp;Practitioner), I am not trained or qualified to diagnose, cure or prescribe medication to my Clients.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul><li>I am not a qualified and licensed Master Personal Trainer</li><li>I am not a qualified and licensed Medical Doctor</li><li>I am not a qualified and licensed Registered Nurse Practitioner</li><li>I am not a qualified and Licensed Acupuncturist/Chinese Medicine Practitioner&nbsp;</li><li>I am not a qualified and Licensed Massage Therapist (LMT)</li><li>I am not a qualified and Licensed Naturopathic Doctor</li><li>I am not a qualified and Licensed Herbalist</li><li>I am not a qualified and Licensed Nutritionist</li><li>I am not a qualified and licensed Physiotherapist&nbsp;</li></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p><strong><u>CHP WAIVER FORM</u></strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>I have been informed by the&nbsp;<strong>CTPWCHP</strong>, understand and accept the following:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul><li>That&nbsp;<strong>CTPWCHP</strong>&nbsp;is not a recognized, approved and regulated medical procedure. It is a spiritual healing method to relieve various conditions in the mind, body and soul of the Client. It can also relieve metaphysical concerns.</li><li>I understand that I may not see the full benefits after&nbsp;<strong>Toxin Pulling (Wet Cupping/Hijama)&nbsp;</strong>and it may take more than 1 session to see any improvements in overall wellness.</li><li>The&nbsp;<strong>CTPWCHP</strong>&nbsp;can not diagnose me, cure me or prescribe medications to me(unless they actually are a formally trained and qualified Medical/Health Professional and licensed by a recognized Authority).</li><li><strong>CTPWCHP</strong>&nbsp;is a natural detoxification process that cleanses the body on a cellular level. A small amount of toxic blood is extracted from the skin by grazing the skin surface with a size 15 single use sterile surgical blade.&nbsp;<strong>Toxin Pulling (Wet Cupping/Hijama)</strong>&nbsp;will be done and several, small, shallow grazes will be made upon my skin at the cupped&nbsp;<strong>Toxin Pulling (Wet Cupping/Hijama)</strong>&nbsp;sites to draw a minimal amount of toxic blood.</li><li><strong>Toxin Pulling (Wet Cupping/Hijama)</strong>&nbsp;is a very safe Spiritual treatment with minimal after effects, and no liability cases to date.&nbsp;</li><li>That all blood items such as cups, blades, and tissues are single use only and not to be reused by me or anyone else.</li><li>The&nbsp;<strong>CTPWCHP</strong>&nbsp;has fully explained the procedure, contraindications, outcomes, aftereffects and post care instructions of the&nbsp;<strong>Toxin Pulling (Wet Cupping/Hijama)</strong>&nbsp;procedure to me, shown me the equipment and I understand the process of&nbsp;<strong>Toxin Pulling (Wet Cupping/Hijama)</strong>.</li><li>I give permission to the&nbsp;<strong>CTPWCHP&nbsp;</strong>to safely and professionally perform Dry and&nbsp;<strong>Toxin Pulling (Wet Cupping/Hijama)</strong>&nbsp;on my body, create several, small, shallow grazes by breaking the skin barrier with a size 15, single use, sterile blade or with a diabetic needle and lancet within the circle of the&nbsp;<strong>Toxin Pulling (Wet Cupping/Hijama)</strong>&nbsp;site. Also, to clean me up, disinfect, sanitize and seal me with oil.</li><li>Biological Females:&nbsp;I confirm I have taken a pregnancy test and confirm that&nbsp;I am not pregnant.</li></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p><strong><u>PHOTOGRAPHY/ VIDEOGRAPHY :</u></strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<ul><li>Client agrees to full use of photography/video and/or photographs/videos taken during or after services to be used for Soul Detox portfolio and promotional images.</li></ul>
+<!-- /wp:paragraph -->
+
+</div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"10%"} -->
+<div class="wp-block-column" style="flex-basis:10%"></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+
+<!-- ================== Disclosure End =============================== -->
+
+
+    [uacf7-row]
+      [uacf7-col col:6] 
+[checkbox* Terms-and-Conditions exclusive "I read and agree to the terms and conditions"]
+      [/uacf7-col]
+
+      [uacf7-col col:6] 
+            [submit "Submit"]
+      [/uacf7-col]
+   [/uacf7-row]
+[uacf7_step_end]
